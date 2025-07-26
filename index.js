@@ -1,13 +1,11 @@
 // 1. Realiza el cálculo del salario que debe recibir un trabajador que gana x salario con un descuento del 4% por salud y 7% por pensión.
 
-
-let salario = prompt("Ingrese su salario mensual:");
+let salario = prompt("Ingrese el salario salario mensual: ");
 let descuentoSalud = salario * 4 / 100;
 let descuentoPension = salario * 7 / 100;
 let salarioTotal = salario - (descuentoSalud + descuentoPension);
 
 alert("Su salario total es: " + salarioTotal);
-
 
 // 2. Aplica la fórmula a = (b*h)/2 para calcular el área de un triángulo donde sus dimensiones base y altura se deben pedir al usuario que las digite
 
@@ -80,9 +78,7 @@ alert("Porcentaje de alumnos hombres: " + porcentajeHombres + "%\n" +
 let nota1 = prompt("Ingrese la primera nota :");
 let nota2 = prompt("Ingrese la segunda nota :");
 let nota3 = prompt("Ingrese la tercera nota :");
-if (nota1 >= 1 && nota1 <= 5 &&
-    nota2 >= 1 && nota2 <= 5 &&
-    nota3 >= 1 && nota3 <= 5) {
+if (nota1 >= 1 && nota1 <= 5 && nota2 >= 1 && nota2 <= 5 && nota3 >= 1 && nota3 <= 5) {
     let promedio = (nota1 + nota2 + nota3) / 3;
     alert("El promedio del alumno es: " + promedio);
 } else {
