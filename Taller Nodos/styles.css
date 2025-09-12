@@ -1,0 +1,14 @@
+.cambiarH2{
+    color: cyan;
+    font-style: italic;
+}
+
+.cumplido {
+    background-color: rgb(37, 230, 37);
+    color: white;
+}
+
+.fallido {
+    background-color: red;
+    color: white;
+}
